@@ -1,0 +1,8 @@
+.center{
+	margin: auto;
+	width: 800px;		
+}
+.center th{
+	background: rgb(23, 162, 184);
+	color: white;
+}
