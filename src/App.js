@@ -12,8 +12,9 @@ import Bbsanswer from './bbs/Bbsanswer';
 import Pdslist from './pds/Pdslist';
 import Pdswrite from './pds/Pdswrite';
 import Pdsdetail from './pds/Pdsdetail';
-
-
+import Imageview from './component/Imageview';
+import Calendar from './component/Calendar';
+import Summernote from './component/Summernote';
 
 
 function App() {
@@ -41,6 +42,15 @@ function App() {
               <li className='nav-item'>
                 <Link className='nav-link' to="/pdslist">자료실</Link>
               </li>
+              <li className='nav-item'>
+                <Link className='nav-link' to="/imageview">이미지미리보기</Link>
+              </li>
+              <li className='nav-item'>
+                <Link className='nav-link' to="/calendar">fullcalendar</Link>
+              </li>
+              <li className='nav-item'>
+                <Link className='nav-link' to="/summernote">summernote</Link>
+              </li>
 
             </ul>
           </div>
@@ -65,6 +75,10 @@ function App() {
 
             <Route path='/login' element={<Login/>}/>
             <Route path='/regi' element={<Regi/>}/>
+
+            <Route path='/imageview' element={<Imageview/>}/>
+            <Route path='/calendar' element={<Calendar/>}/>
+            <Route path='/summernote' element={<Summernote/>}/>
       
           </Routes>
 

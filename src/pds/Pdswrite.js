@@ -83,7 +83,7 @@ function Pdswrite() {
           </td>
         </tr>
       </table>
-      <button onClick={pdswrite}>업로드</button>
+      <button onClick={pdswrite} className='btn btn-primary'>업로드</button>
     </div>
   );
 }

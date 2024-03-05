@@ -76,7 +76,7 @@ function Pdsdetail(){
             <th>파일</th>
             <td>		
                 <span>{pds.filename}</span>&nbsp;&nbsp;
-                <button onClick={handleDownload}>다운로드</button>
+                <button onClick={handleDownload} className='btn btn-primary'>다운로드</button>
             </td>
         </tr>
         <tr>

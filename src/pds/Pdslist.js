@@ -42,7 +42,7 @@ function Pdslist(){
 </table>
 <br/>
 <div className='my-5 d-flex justify-content-center'>
-                <Link className='btn btn-primary' to='/pdswrite'>글쓰기</Link>
+                <Link className='btn btn-primary' to='/pdswrite'>자료올리기</Link>
             </div>
 </div>
     );
